@@ -4,5 +4,6 @@
     ],
     "nrf-connect.topdir": "${workspaceFolder}",
     "nrf-connect.toolchain.path": "PATH",
-    "C_Cpp.default.configurationProvider": "nrf-connect"
+    "C_Cpp.default.configurationProvider": "nrf-connect",
+    "cortex-debug.armToolchainPath": "/opt/zephyr-sdk-0.14.2/arm-zephyr-eabi/bin"
 }
