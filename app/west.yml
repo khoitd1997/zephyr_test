@@ -1,0 +1,16 @@
+manifest:
+  remotes:
+    - name: ncs
+      url-base: https://github.com/nrfconnect
+  # If not otherwise specified, the projects below should be obtained
+  # from the ncs remote.
+  defaults:
+    remote: ncs
+
+  projects:
+    - name: sdk-nrf
+      path: nrf
+      revision: v2.0.0
+      import: true
+  self:
+    west-commands: scripts/west-commands.yml

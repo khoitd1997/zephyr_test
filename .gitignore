@@ -30,3 +30,15 @@
 *.exe
 *.out
 *.app
+
+/.west
+/bootloader
+/mbedtls
+/modules
+/nrf
+/nrfxlib
+/test
+/tools
+/zephyr
+
+/app/build
